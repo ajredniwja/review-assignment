@@ -35,3 +35,6 @@ function addAnimal ($str)
         echo $animals[$i].' ';
     }
 }
+
+sortAndPrint();
+addAnimal('Alpaca');
