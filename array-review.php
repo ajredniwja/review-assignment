@@ -45,3 +45,7 @@ addAnimal('Alpaca');
 
 $flavors = array("grasshoper"=>"The Grasshopper", "maple"=>"Whiskey Maple Bacon", "carrot"=>"Carrot Walnut", "caramel"=>"Salted Caramel Cupcake", "velvet"=>"Red Velvet", "lemon"=>"Lemon Drop", "tiramisu"=>"Tiramisu");
 echo "<br>";
+foreach ($flavors as $x => $x_value)
+{
+    echo "<input type='checkbox' name='flavors[]' value='".$x."'> ". $x_value . "<br>";
+}
